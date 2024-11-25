@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "my.app.pob.id",
+    "type": "java.lang.String",
+    "description": "A description for 'my.app.pob.id'"
+  },
+  {
+    "name": "my.app.pob.prefix",
+    "type": "java.lang.String",
+    "description": "A description for 'my.app.pob.prefix'"
+  }
+]}

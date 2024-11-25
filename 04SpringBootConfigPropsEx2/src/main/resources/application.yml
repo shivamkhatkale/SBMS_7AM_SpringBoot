@@ -1,0 +1,21 @@
+  # Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: SpringBootConfigPropsEx2
+my:
+  app:
+    id: 20
+    code: MODEL
+    data:
+    - A
+    - B
+    - C
+    info:
+      c1: m1
+      c2: m2
+      c3: m3
+    pob:
+      code: 23
+      prefix: code
