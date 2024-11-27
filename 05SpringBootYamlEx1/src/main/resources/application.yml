@@ -1,6 +1,18 @@
 my:
-	app:
-		host: smpt.gmail.com
-		port: 885
-		username: sample
-		password: ashok
+  app:
+    cob:
+      provider: GoDaddy
+      expExist: INACTIVE
+    host: smtp.gmail.com
+    port: 885
+#    port: 990
+    username: sample
+    pasword: ashok
+    protocols:
+    - SMTP
+    - SMTPS
+    - SMTP2
+    headers:
+      modified: true
+      version: 3.2A
+      content: JSON
