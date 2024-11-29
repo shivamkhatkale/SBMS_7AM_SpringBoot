@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: 06SpringBootProfilesExOne
+my:
+  db:
+    driver: Oracle
+    url: jdbc-oracle
+    user: ashok
+    pwd: raghu
+
+---
+spring:
+  config:
+    activate:
+       on-profile:
+        - prod
+        - prodps
+
+my:
+  db:
+    driver: MySql
+    url: jdbc-mysql
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod 
+
+my:
+  db:
+    driver: Postgress
+    url: jdbc-postgress
+
