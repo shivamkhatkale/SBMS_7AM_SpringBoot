@@ -1,15 +1,14 @@
 package com.example.shivam;
 
-import io.micrometer.common.lang.NonNull;
-import lombok.Data;
+import lombok.Builder;
+import lombok.ToString;
 
-@Data
+@Builder
+@ToString
 public class Process {
 
-	@NonNull
+	private int id;
+	private String type;
 	private String code;
-	@NonNull
-	private int port;
-	private boolean exist;
 
 }
